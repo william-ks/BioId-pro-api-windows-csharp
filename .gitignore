@@ -1,0 +1,35 @@
+# Arquivos temporários
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos de compilação
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userprefs
+.vs/
+
+# Arquivos de banco de dados
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos de Docker
+.docker/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Arquivos de dependências
+node_modules/
+packages/

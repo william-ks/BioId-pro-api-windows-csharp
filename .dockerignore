@@ -1,0 +1,28 @@
+# Configuração do Docker para a API Biométrica
+
+# Ignora arquivos temporários e de compilação
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/bin
+**/charts
+**/compose*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# Não ignorar arquivos essenciais
+!lib/CIDBio.dll
+!lib/libcidbio.dll
